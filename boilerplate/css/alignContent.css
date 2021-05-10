@@ -1,0 +1,24 @@
+body {
+    background-color: #50d890;
+}
+
+.flex-container {
+    height: 240px;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.end{
+    align-content: flex-end;
+}
+.center{
+    align-content:center;
+}
+.around{
+    align-content: space-around;
+    height:800px;
+}
+.between{
+    align-content: space-between;
+    height:800px;
+}

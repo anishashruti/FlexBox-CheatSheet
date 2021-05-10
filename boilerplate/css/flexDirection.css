@@ -1,0 +1,22 @@
+body {
+    background-color: #cc0e74;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.row1{
+    flex-direction: row-reverse;
+}
+
+.col{
+    flex-direction: column;
+}
+.colrev{
+    flex-direction: column-reverse;
+}
