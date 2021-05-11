@@ -43,3 +43,21 @@ body {
 .text-center {
     text-align: center;
 }
+
+.back{
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.back > a {
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+    width: 80px;
+    height: 100px;
+    margin-left: 50%;
+}

@@ -6,17 +6,20 @@
     <title>Flex-direction</title>
     <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
     <link rel="stylesheet" href="./css/boilerplate.css">
-    <link rel="stylesheet" href="./css/flexDirection.css">
+    <link rel="stylesheet" href="./css/alignSelf.css">
 </head>
 <body>
     <div class="header">
         <h1>Flex With Flexbox</h1>
-        <p>The flex-direction property defines in which direction the container wants to stack the flex items.</p>
+        <p>The align-self property specifies the alignment for the selected item inside the flexible container.</p>
+        <p>The align-self property overrides the default alignment set by the container's align-items property.</p>
     </div>
-
+    <div class="back">
+        <a href="index.html"><h1>&#8592;</h1></a>
+    </div>
     <div class="head-container">
-        <h3 class="text-center">flow-direction: row</h3>
-        <div class="flex-container row">
+        <h3 class="text-center">Item 2 is aligned "flex-start"</h3>
+        <div class="flex-container sample1">
             <div>Item 1</div>
             <div>Item 2</div>
             <div>Item 3</div>
@@ -25,8 +28,8 @@
         </div>
     </div>
     <div class="head-container">
-        <h3 class="text-center">flow-direction: row reverse</h3>
-        <div class="flex-container row1">
+        <h3 class="text-center">Item 2 is aligned "flex-end"</h3>
+        <div class="flex-container sample2">
             <div>Item 1</div>
             <div>Item 2</div>
             <div>Item 3</div>
@@ -35,8 +38,8 @@
         </div>
     </div>
     <div class="head-container">
-        <h3 class="text-center">flow-direction: column</h3>
-        <div class="flex-container col">
+        <h3 class="text-center">Item 2 is aligned "center"</h3>
+        <div class="flex-container sample3">
             <div>Item 1</div>
             <div>Item 2</div>
             <div>Item 3</div>
@@ -45,8 +48,8 @@
         </div>
     </div>
     <div class="head-container">
-        <h3 class="text-center">flow-direction: column reverse</h3>
-        <div class="flex-container colrev">
+        <h3 class="text-center">Item 2 is aligned "streach"</h3>
+        <div class="flex-container sample4">
             <div>Item 1</div>
             <div>Item 2</div>
             <div>Item 3</div>

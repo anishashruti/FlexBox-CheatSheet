@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Align-items</title>
+    <title>Flex-direction</title>
     <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
     <link rel="stylesheet" href="./css/boilerplate.css">
-    <link rel="stylesheet" href="./css/alignItems.css">
+    <link rel="stylesheet" href="./css/justifyContent.css">
 </head>
 <body>
     <div class="header">
         <h1>Flex With Flexbox</h1>
-        <p>The align-items property is used to align the flex items along cross-axis.</p>
+        <p>The justify-content property is used to align the flex items along main axis</p>
+        <p>row</p>
     </div>
-
+    <div class="back">
+        <a href="index.html"><h1>&#8592;</h1></a>
+    </div>
     <div class="head-container">
-        <h3 class="text-center">align-items: flex-start</h3>
+        <h3 class="text-center">justify-content: flex-start</h3>
         <div class="flex-container start">
             <div>Item 1</div>
             <div>Item 2</div>
@@ -25,7 +28,7 @@
         </div>
     </div>
     <div class="head-container">
-        <h3 class="text-center">align-items: flex-end</h3>
+        <h3 class="text-center">justify-content: flex-end</h3>
         <div class="flex-container end">
             <div>Item 1</div>
             <div>Item 2</div>
@@ -35,7 +38,7 @@
         </div>
     </div>
     <div class="head-container">
-        <h3 class="text-center">align-items: center</h3>
+        <h3 class="text-center">justify-content: center</h3>
         <div class="flex-container center">
             <div>Item 1</div>
             <div>Item 2</div>
@@ -45,18 +48,22 @@
         </div>
     </div>
     <div class="head-container">
-        <h3 class="text-center">align-items: stretch</h3>
-        <div class="flex-container stretch">
+        <h3 class="text-center">justify-content: space around</h3>
+        <div class="flex-container space">
             <div>Item 1</div>
             <div>Item 2</div>
             <div>Item 3</div>
             <div>Item 4</div>
             <div>Item 5</div>
         </div>
+    </div>
+    <div class="header">
+        <h1>Justify content -Column</h1>
+        <p>Column(Everything acts on the main axes that is vertical)</p>
     </div>
     <div class="head-container">
-        <h3 class="text-center">align-items: baseline</h3>
-        <div class="flex-container baseline">
+        <h3 class="text-center">justify-content: space-between </h3>
+        <div class="flex-container colstart">
             <div>Item 1</div>
             <div>Item 2</div>
             <div>Item 3</div>
@@ -64,5 +71,6 @@
             <div>Item 5</div>
         </div>
     </div>
+    
 </body>
 </html>

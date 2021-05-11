@@ -6,16 +6,18 @@
     <title>Flex-direction</title>
     <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
     <link rel="stylesheet" href="./css/boilerplate.css">
-    <link rel="stylesheet" href="./css/flexGrow.css">
+    <link rel="stylesheet" href="./css/flexShrink.css">
 </head>
 <body>
     <div class="header">
         <h1>Flex With Flexbox</h1>
-        <p>The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items.</p>
+        <p>The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.</p>
     </div>
-
+    <div class="back">
+        <a href="index.html"><h1>&#8592;</h1></a>
+    </div>
     <div class="head-container">
-        <h3 class="text-center">All items have flex grow 0</h3>
+        <h3 class="text-center">All items have flex shrink 1 (default)</h3>
         <div class="flex-container sample1">
             <div>Item 1</div>
             <div>Item 2</div>
@@ -23,7 +25,7 @@
         </div>
     </div>
     <div class="head-container">
-        <h3 class="text-center">All items have flex grow 1</h3>
+        <h3 class="text-center">Dont want 2 to shrink</h3>
         <div class="flex-container sample2">
             <div>Item 1</div>
             <div>Item 2</div>
@@ -31,7 +33,7 @@
         </div>
     </div>
     <div class="head-container">
-        <h3 class="text-center">Items 1 and 2 grow in the ratio 1:2</h3>
+        <h3 class="text-center">2 not allowed to shrink than 1, and 3 is allowed to shrink more than 2</h3>
         <div class="flex-container sample3">
             <div>Item 1</div>
             <div>Item 2</div>
