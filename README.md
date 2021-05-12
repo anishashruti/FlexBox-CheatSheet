@@ -1,4 +1,6 @@
 # My cheat sheet for css flexbox
+**Deployed link:**
+https://anishashruti.github.io/FlexBox-CheatSheet/
 
 **For Quick Review**
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
